@@ -20,7 +20,7 @@ The automatic decayed teeth detection process involves the following steps:
 
 - VGG16 architecture, pretrained on ImageNet, is employed for this classification task.
 
-- Users can fine-tune the pretrained VGG16 model using the provided script.
+- Users can train the pretrained VGG16 model with frozen layers and then fine-tune it by unfreezing the trainable layers using the provided script.
 
 3. **Overlapped and Non-Overlapped Teeth Classification:**
 
@@ -28,13 +28,14 @@ The automatic decayed teeth detection process involves the following steps:
 
 - VGG16 is utilized again for this classification.
 
-- Users can fine-tune the pretrained VGG16 model for this task.
+- Users can train the pretrained VGG16 model with frozen layers and then fine-tune it by unfreezing the trainable layers using the provided script.
 
 4. **Decayed and Non-Decayed Teeth Classification:**
 - Finally, teeth are classified as decayed or non-decayed.
 
 - ResNet50 architecture, pretrained on ImageNet, is employed for this classification.
-- Users can fine-tune the pretrained ResNet50 model using the provided script.
+
+- Users can train the pretrained ResNet50 model with frozen layers and then fine-tune it by unfreezing the trainable layers using the provided script.
 
 ### Not Useful Teeth
 

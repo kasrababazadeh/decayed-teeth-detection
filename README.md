@@ -42,7 +42,7 @@ Not useful teeth refer to the teeth detected during the tooth detection step tha
 
 ## Thesis Information
 
-This project is the result of a master's thesis conducted by [Your Name] under the supervision of Dr. Ali Nadian. The thesis explores the application of transfer learning in the field of dentistry for automating the detection of decayed teeth from bitewing radiographs.
+This project is the result of a master's thesis conducted by [Kasra Babazadeh] under the supervision of Dr. Ali Nadian. The thesis explores the application of transfer learning in the field of dentistry for automating the detection of decayed teeth from bitewing radiographs.
 
 ## Installation
 

@@ -6,11 +6,7 @@ This project aims to automatically detect decayed teeth from bitewing radiograph
 
 The automatic decayed teeth detection process involves the following steps:
 
-1. **Bitewing Image Input:**
-
-- Users provide a bitewing radiograph as input to the system. Bitewing radiographs are commonly used in dentistry for detecting dental caries and other dental issues.
-
-2. **Tooth Detection:**
+1. **Tooth Detection:**
 
 - Utilizes Faster R-CNN with ResNet50 backbone for detecting teeth.
 
@@ -18,27 +14,27 @@ The automatic decayed teeth detection process involves the following steps:
 
 - An annotation tool called LabelImg is recommended for annotating the data, and a converter script is provided to convert annotations to .record file format.
 
-3. **Molar and Premolar Classification:**
+2. **Molar and Premolar Classification:**
 
 - After tooth detection, the identified teeth are cropped and classified into molars and premolars.
 
-- VGG16 architecture is employed for this classification task.
+- VGG16 architecture, pretrained on ImageNet, is employed for this classification task.
 
-- Users can train their own classification model using the provided script.
+- Users can fine-tune the pretrained VGG16 model using the provided script.
 
-4. **Overlapped and Non-Overlapped Teeth Classification:**
+3. **Overlapped and Non-Overlapped Teeth Classification:**
 
 - Teeth are further categorized into overlapped, non-overlapped, and not useful teeth.
 
 - VGG16 is utilized again for this classification.
 
-- Users are encouraged to train their own model using the provided code.
+- Users can fine-tune the pretrained VGG16 model for this task.
 
-5. **Decayed and Non-Decayed Teeth Classification:**
+4. **Decayed and Non-Decayed Teeth Classification:**
 - Finally, teeth are classified as decayed or non-decayed.
-- ResNet50 architecture is employed for this classification.
 
-- Users can train their data on the provided script.
+- ResNet50 architecture, pretrained on ImageNet, is employed for this classification.
+- Users can fine-tune the pretrained ResNet50 model using the provided script.
 
 ### Not Useful Teeth
 
@@ -52,7 +48,7 @@ This project is the result of a master's thesis conducted by [Your Name] under t
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/kasrababazadeh/decayed-teeth-detection.git
 
 2. Set up Google Colab environment and import the necessary libraries.
 

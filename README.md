@@ -67,6 +67,10 @@ git clone https://github.com/kasrababazadeh/decayed-teeth-detection.git
 
 After training, you can evaluate the performance of the entire pipeline using `evaluation.py`.
 
+## Upcoming Article
+
+We are in the process of preparing an in-depth article that delves into the development process, methodologies, and key findings of this project. The article will provide detailed insights into the challenges faced, the techniques employed, and the results obtained during the development of the automatic decayed teeth detection system.
+
 ## Contributions
 
 Contributions to improve the project are welcome! Feel free to submit pull requests or open issues for any suggestions or bugs.

@@ -57,15 +57,15 @@ git clone https://github.com/kasrababazadeh/decayed-teeth-detection.git
 
 ## Usage
 
-1. For training your tooth detection model, use `train_tooth_detection.py`.
+1. For training your tooth detection model, use `faster_rcnn_train.ipynb`.
 
-2. Use `train_molar_premolar_classification.py` for training molar and premolar classification.
+2. Use `molar_premolar.ipynb` for training molar and premolar classification.
 
-3. Train your overlapped and non-overlapped teeth classification model with `train_teeth_classification.py`.
+3. Train your overlapped and non-overlapped teeth classification model with `overlap_part.ipynb`.
 
-4. Lastly, use `train_decayed_non_decayed_classification.py` to train your decayed and non-decayed teeth classification model.
+4. Lastly, use `decayed_part.ipynb` to train your decayed and non-decayed teeth classification model.
 
-After training, you can evaluate the performance of the entire pipeline using `evaluation.py`.
+After training, you can evaluate the performance of the entire pipeline using `automatic_prediction.ipynb`.
 
 ## Upcoming Article
 

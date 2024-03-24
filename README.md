@@ -51,7 +51,7 @@ This project is the result of a master's thesis conducted by [Kasra Babazadeh] u
 
 git clone https://github.com/kasrababazadeh/decayed-teeth-detection.git
 
-2. Set up Google Colab environment and import the necessary libraries.
+2. Set up Google Colab environment.
 
 3. Follow the instructions provided in each step's respective script to train your models and perform evaluations.
 
